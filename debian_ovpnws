@@ -1,3 +1,11 @@
+#!/bin/bash
+#Script Variables
+HOST='162.250.121.69';
+USER='digitelp_rgtunnelvpn';
+PASS='rgtunne@@33ree';
+DBNAME='digitelp_rgtunnelvpn';
+PORT_TCP='1194';
+PORT_UDP='53';
 timedatectl set-timezone Asia/Riyadh
 install_require () {
 clear
